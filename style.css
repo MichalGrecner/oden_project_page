@@ -1,6 +1,10 @@
 body{
     display:flex;
     flex-direction: column;
+    font-family: Roboto, Helvetica, sans-serif;
+    width: 800px;
+    align-items: center;
+    margin: 0 auto
     
     
 }
@@ -37,19 +41,34 @@ ul{
 
 .headercontainer{
     display:flex;
-    margin: 0 30px;
+    margin-top: 0;
     justify-content: space-between;
+    width:800px
     
     
 }
 .headerPicture {
     height: 150px;
+    width: 300px;
+    margin-right: 30px;
+    background-color: grey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.headerPicture span{
+    font-size: 10px;
+
 
 }
 .headerText{
     height:150px;
     width:300px;
     flex-shrink: 0;
+    margin-left: 30px;
     
 }
 
@@ -57,7 +76,12 @@ ul{
     margin:0
 }
 .headerText p{
-    margin:0
+    margin:0;
+    font-size: 12px;
+    font-weight: 300;
+    color:#E5E7EB
+    
+
 }
 
 button{
@@ -68,12 +92,69 @@ button{
 }
 
 .headercontainer button{
-    background-color: blue;
+    background-color: #3882F6;
     color: #E5E7EB;
     margin-top: 10px;
 }
 
+.contShorts h4{
+   text-align: center;
+   margin-bottom: 0;
+   font-weight: bold;
+   font-size: 20px;
+   
+}
+
+.shortcuts{
+    display:flex;
+    justify-content: center;
+}
+.shortcut{
+    margin:24px;
+}
+
+.shortcut .image {
+    width:80px;
+    height: 80px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+
+
+}
+.shortcut p{
+    max-width: 80px;
+    font-size: 10px;
+    font-weight:lighter;
+    margin-top: 0;
+    text-align: center;
+}
+
+.contQuote{
+    background-color: #E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+    
+}
+
+.contQuote #quote{
+    font-size: 25px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: 100;
+    width: 600px;
+    padding: 0 100px
+}
+.contQuote #signature{
+    text-align: right;
+
+}
+
 
 main{
+    
+
+    
 
 }
